@@ -33,3 +33,10 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Maven
+target/
+*.ser
+*.ec
+dependency-reduced-pom.xml
+.flattened-pom.xml
