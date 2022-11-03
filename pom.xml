@@ -12,8 +12,8 @@
 
     <modules>
         <module>slf4j-api</module>
-        <module>logback-core</module>
-        <module>logback-extension</module>
+        <module>logback-classic</module>
+        <module>logback-extensions</module>
     </modules>
 
     <properties>
