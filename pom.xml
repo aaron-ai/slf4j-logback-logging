@@ -11,8 +11,9 @@
     <url>http://maven.apache.org</url>
 
     <modules>
-        <module>slf4j</module>
-        <module>logback</module>
+        <module>slf4j-api</module>
+        <module>logback-core</module>
+        <module>logback-extension</module>
     </modules>
 
     <properties>
