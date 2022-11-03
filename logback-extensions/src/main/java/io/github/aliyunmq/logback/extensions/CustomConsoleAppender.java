@@ -19,6 +19,7 @@ package io.github.aliyunmq.logback.extensions;
 
 import ch.qos.logback.core.ConsoleAppender;
 
+@SuppressWarnings("unused")
 public class CustomConsoleAppender<E> extends ConsoleAppender<E> {
     public static final String ENABLE_CONSOLE_APPENDER_KEY = "mq.consoleAppender.enabled";
     private final boolean enabled;

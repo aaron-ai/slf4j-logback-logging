@@ -23,6 +23,8 @@ import ch.qos.logback.classic.spi.ILoggingEvent;
 /**
  * Make it possible to display process id for logging.
  */
+@SuppressWarnings("unused")
+
 public class ProcessIdConverter extends ClassicConverter {
     private static final String PROCESS_ID = String.valueOf(getProcessId());
 
